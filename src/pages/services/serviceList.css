@@ -1,21 +1,24 @@
 :root {
-    --background: rgb(245, 246, 250);
     /* Light gray-blue */
-    --card-bg: rgb(255, 255, 255);
+    --background: rgb(245, 246, 250);
     /* Pure white */
-    --accent: rgb(0, 150, 199);
+    --card-bg: rgb(255, 255, 255);
     /* Teal blue */
-    --secondary: rgb(2, 62, 138);
+    --accent: rgb(0, 150, 199);
     /* Deep navy blue */
-    --button: rgb(0, 180, 216);
+    --secondary: rgb(2, 62, 138);
     /* Aqua blue */
-    --text: rgb(52, 58, 64);
+    --button: rgb(0, 180, 216);
     /* Dark gray text */
+    --text: rgb(52, 58, 64);
 }
 
 #navbar {
     background-color: var(--accent);
     height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
 
 }
 
@@ -48,7 +51,7 @@ body {
 
 .servicecard-content button:hover {
     background: var(--button-hover);
-    color: black;
+    color: var(--text)
 }
 
 
