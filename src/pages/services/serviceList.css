@@ -14,7 +14,7 @@
 }
 
 #navbar {
-    background-color: rgb(0, 79, 128);
+    background-color: var(--accent);
     height: 60px;
 
 }
