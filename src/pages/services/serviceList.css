@@ -1,0 +1,88 @@
+:root {
+    --background: rgb(245, 246, 250);
+    /* Light gray-blue */
+    --card-bg: rgb(255, 255, 255);
+    /* Pure white */
+    --accent: rgb(0, 150, 199);
+    /* Teal blue */
+    --secondary: rgb(2, 62, 138);
+    /* Deep navy blue */
+    --button: rgb(0, 180, 216);
+    /* Aqua blue */
+    --text: rgb(52, 58, 64);
+    /* Dark gray text */
+}
+
+#navbar {
+    background-color: rgb(0, 79, 128);
+    height: 60px;
+
+}
+
+.serviceCardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.servicecard-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.servicecard-content button {
+    background: var(--accent);
+    color: var(--background);
+}
+
+.servicecard-content button:hover {
+    background: var(--button-hover);
+    color: black;
+}
+
+.servicecard {
+    background-color: var(--card-bg);
+    color: var(--text);
+    border: 1px solid var(--accent);
+    width: 350px;
+    height: 390px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 40px auto;
+
+}
+
+
+
+.servicecard-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.servicecard-content {
+    padding: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.servicecard-content h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.servicecard-content .price {
+    font-weight: bold;
+    margin-top: 10px;
+}
