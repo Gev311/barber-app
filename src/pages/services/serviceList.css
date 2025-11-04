@@ -42,10 +42,15 @@ body {
     color: var(--background);
 }
 
+.servicecard:hover {
+    transform: translateY(-5px);
+}
+
 .servicecard-content button:hover {
     background: var(--button-hover);
     color: black;
 }
+
 
 .servicecard {
     background-color: var(--card-bg);

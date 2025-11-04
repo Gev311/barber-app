@@ -1,5 +1,5 @@
 import './serviceList.css'
-import barbers from '../../data/barbers.json';
+import barbers from '../../data/barbers.js';
 export const ServiceList = () => {
     return (
         <section id="main-layout">
